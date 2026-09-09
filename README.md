@@ -1,2 +1,0 @@
-# Notion
-Vibecoding notion
