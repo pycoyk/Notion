@@ -49,9 +49,7 @@ function Icon({ name, className = '' }: { name: IconName; className?: string }) 
 
 function Monogram({ className = '' }: { className?: string }) {
   return (
-    <svg className={`monogram ${className}`} viewBox="0 0 52 52" fill="none" aria-hidden="true">
-      <path d="M13 43V9h9c15 0 15 16 0 16h-9m9 0c17 0 17 18 0 18h-9M38 9 22 26l18 17" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
+    <img className={`monogram ${className}`} src="/logo.jpg" alt="" aria-hidden="true" style={{ width: 44, height: 49, objectFit: 'contain' }} />
   );
 }
 
